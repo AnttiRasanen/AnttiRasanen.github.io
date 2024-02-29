@@ -1,74 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="author" content="Antti Rasanen">
-  <meta name="description" content="Portfoliotesti">
-  <title>Portfoliotesti</title>
-  <link rel="stylesheet" href="./css/style1.css">
+  <title>HTML5 Checkers</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.png" type="image/x-icon">
+  <script src="script.js"></script>
 </head>
 <body>
-    <a name="top"></a>
-  <div class="wrapper">
-    <header>
-      <div id="logo">
-        Portfolio
-      </div>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-      </nav>
-    </header>
-    <div id="big-image">
-      <img width="100%" height="200px" src="./assets/testimage2.jpg" alt="Placeholder image">
+  <div class="column">
+    <div class="info">
+      <h1>Checkers</h1>
+      <hr>
     </div>
-    <main>
-      <section>
-        <article class="description">
-          <h2><a href="blogpost1.html">Vision of the Twelve Goddesses</a></h2>
-          <span>By Steve Stevenson</span>
-          <p>The Vision of the Twelve Goddesses was an early Jacobean era masque, written by Samuel Daniel and performed in the Great Hall of Hampton Court Palace on the evening of Sunday, 8 January 1604.</p>
-        </article>
-        <article class="description">
-          <h2><a href="blogpost2.html">Eagle Creek Golf Club</a></h2>
-          <span>By Steve Stevenson</span>
-          <p>Eagle Creek Golf Club is an eighteen-hole golf course located in Orlando, Florida. The course has a par of 73 and measures 7,198 yards (6,582 m), containing five par-5 holes and over ninety bunkers. The course is public and includes a 14,000-square-foot (1,300 m2) clubhouse with a pro shop as well as a 120-seat restaurant.</p>
-        </article>
-        <article class="description">
-          <h2><a href="blogpost3.html">Sedgeford Hall Portrait</a></h2>
-          <span>By Steve Stevenson</span>
-          <p>The "Sedgeford Hall Portrait" (location: King's Lynn Town Hall, Norfolk, UK), is an oil on canvas portrait in the American School by an unknown artist circa 1830. It depicts Pe-o-ka, wife of the Seminole chief, Osceola, and their son. It was once believed by many to be a portrait painted from life of Pocahontas and her son, Thomas Rolfe.</p>
-        </article>
-        <article class="description">
-          <h2><a href="blogpost4.html">2002–03 New York Knicks season</a></h2>
-          <span>By Steve Stevenson</span>
-          <p>The 2002-2003 season was not a good one for the New York Knicks. Find out more about their results.
-          </p>
-        </article>
-        <article class="description">
-          <h2><a href="blogpost5.html">Rhema Media</a></h2>
-          <span>By Steve Stevenson</span>
-          <p>Rhema Media (previously known as Rhema Broadcasting Group or RBG) is a Christian media organisation in New Zealand. It owns radio networks Rhema, Life FM and Star, and television station Shine TV. </p>
-        </article>
-        <article class="description">
-          <h2><a href="blogpost6.html">Interspecies friendship</a></h2>
-          <span>By Steve Stevenson</span>
-          <p>Animals can be just friends, even if they aren't the same species. This applies to both domesticated and wild animals.</p>
-        </article>
-      </section>
-      <aside>
-        <h3>Useful  links</h3>
-        <ul>
-            <li> <a target="_blank" href="https://google.com">First link</a></li>
-            <li> <a target="_blank" href="https://youtube.com">Second link</a></li>
-        </ul>
-      </aside>
-      <div class="linktotop"><a href="#top">Back to top of the page</a></div>
-    </main>
-    <footer> &copy; My blog for testing</footer>
+    <div class="stats">
+      <h2>Game Statistics</h2>
+      <div class="wrapper">
+      <div id="player1">
+        <h3>Player 1 (Top)</h3>
+      </div>
+      <div id="player2">
+        <h3>Player 2 (Bottom)</h3>
+      </div>
+      </div>
+      <div class="clearfix"></div>
+      <div class="turn"></div>
+      <span id="winner"></span>
+      <button id="cleargame">Reset Game</button>
+    </div>
   </div>
-  
+  <div class="column">
+    <div id="board">
+      <div class="tiles"></div>
+      <div class="pieces">
+        <div class="player1pieces">
+        </div>
+        <div class="player2pieces">
+        </div>
+      </div>
+  </div>
 </body>
 </html>
