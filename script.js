@@ -276,10 +276,6 @@ window.onload = function () {
     //initialize the board
     Board.initalize();
   
-    /***
-    Events
-    ***/
-  
     //select the piece on click if it is the player's turn
     $('.piece').on("click", function () {
       var selected;
