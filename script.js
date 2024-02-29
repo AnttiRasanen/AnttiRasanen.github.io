@@ -290,8 +290,8 @@ window.onload = function () {
             $(this).addClass('selected');
           }
         } else {
-          let exist = "jump exist for other pieces, that piece is not allowed to move"
-          let continuous = "continuous jump exist, you have to jump the same piece"
+          let exist = "that piece is not allowed to move, jump exist for other pieces"
+          let continuous = "you have to jump the same piece, continuous jump exist"
           let message = !Board.continuousjump ? exist : continuous
           console.log(message)
         }
