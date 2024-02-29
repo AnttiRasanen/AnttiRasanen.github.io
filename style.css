@@ -9,7 +9,7 @@ html, body {
     color: #333333;
     font-family: "Lato", Calibri, sans-serif;
     font-size: 16px;
-    background-color: #3A3042; }
+    background-color: #474547; }
     html h1, body h1 {
       margin-top: 10px; }
     html h2, body h2 {
@@ -123,7 +123,7 @@ html, body {
       transition: background-color 0.15s linear; }
       div.stats button#cleargame:hover {
         background-color: #0c5a6b; }
-  
+
   div#board {
     position: absolute;
     top: calc(50% - 40vmin);
@@ -132,7 +132,7 @@ html, body {
     height: 80vmin;
     border-radius: 5px;
     box-shadow: 1px 1px 3px #232621;
-    background-color: #B93848;
+    background-color: #d9d8d8;
     overflow: hidden; }
     div#board .tile {
       width: 10vmin;

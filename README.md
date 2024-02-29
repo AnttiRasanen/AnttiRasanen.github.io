@@ -1,2 +1,3 @@
 # AnttiRasanen.github.io
-Testi
+Checkers test site
+WIP
