@@ -161,7 +161,7 @@ html, body {
       position: absolute;
       width: 8vmin;
       height: 8vmin;
-      background-color: #F1F1FF;
+      background-color: #9f9ffa;
       background-size: 65%;
       background-repeat: no-repeat;
       background-position: center;
@@ -172,7 +172,7 @@ html, body {
       margin-top: 1vmin;
       margin-left: 1vmin;
       cursor: pointer;
-      border: 1vmin solid #8b8bff; }
+      border: 1vmin solid #7373fc; }
       div#board .player2pieces .piece.selected {
         box-shadow: 0 0 10px 5px #16A8C7; }
   
