@@ -276,7 +276,6 @@ window.onload = function () {
     //initialize the board
     Board.initalize();
   
-    //select the piece on click if it is the player's turn
     $('.piece').on("click", function () {
       var selected;
       var isPlayersTurn = ($(this).parent().attr("class").split(' ')[0] == "player" + Board.playerTurn + "pieces");

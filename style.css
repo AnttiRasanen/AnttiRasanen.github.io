@@ -61,7 +61,7 @@ html, body {
       text-align: center;
       display: inline-block;
       width: 50%;
-      float: left;
+      /* float: left; */
       background-color: #B93848;
       box-sizing: border-box;
       padding: 0 15px 20px;
@@ -83,7 +83,7 @@ html, body {
       text-align: center;
       display: inline-block;
       width: 50%;
-      float: left;
+      /* float: left; */
       background-color: #232621;
       box-sizing: border-box;
       padding: 0 15px 20px;
@@ -177,3 +177,57 @@ html, body {
         box-shadow: 0 0 10px 5px #16A8C7; }
   
   /*# sourceMappingURL=style.css.map */
+
+  body.login-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
