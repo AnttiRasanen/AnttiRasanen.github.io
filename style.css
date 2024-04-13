@@ -18,7 +18,7 @@ html, body {
       font-size: 1.1em; }
     html a, body a {
       text-decoration: none;
-      color: #333333;
+      color: #ec8585;
       font-weight: 700; }
       html a:hover, body a:hover {
         text-decoration: underline; }
@@ -111,8 +111,9 @@ html, body {
       padding: 10px 0 0;
       text-align: center; }
     div.stats button#cleargame {
+      font-size: 30px;
       display: block;
-      border: 0;
+      border: 2px;
       color: #F1F1FF;
       border-radius: 5px;
       cursor: pointer;
@@ -176,7 +177,6 @@ html, body {
       div#board .player2pieces .piece.selected {
         box-shadow: 0 0 10px 5px #16A8C7; }
   
-  /*# sourceMappingURL=style.css.map */
 
   body.login-options {
     display: flex;

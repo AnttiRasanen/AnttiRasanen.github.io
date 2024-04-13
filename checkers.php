@@ -9,10 +9,12 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 }
 ?>
 
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="fi">
 <head>
-  <title>Checkers incomplete</title>
+  <title>Tammipeli WIP</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link href="style.css" rel="stylesheet">
@@ -23,7 +25,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <script src="script.js"></script>
 </head>
 <body>
-  <div class="column">
+<p><a href="account.php">Tilin muokkaus</a></p>
+<p><a href="logout.php">Kirjaudu ulos</a>.</p>
+<button id="cleargame">Uusi peli</button>
+  
     <div id="board">
       <div class="tiles"></div>
       <div class="pieces">
@@ -32,6 +37,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         <div class="player2pieces">
         </div>
       </div>
-  </div>
+    </div> 
 </body>
 </html>
